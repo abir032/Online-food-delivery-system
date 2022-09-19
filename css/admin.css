@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*end of basic css*/
+
+/*header (logo & menu) css*/
+
+.full {
+    width: 100%;
+}
+
+.main {
+    width: 1180px;
+    margin: auto
+}
+
+.menu_full {
+    background-color: white;
+    padding: 15px 0;
+    //position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.main-menu ul li a {
+    color: #bd1c1d;
+    font-size: 14px;
+    font-family: 
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0 25px;
+    transition: all 0.5s linear;
+}
+
+.main-menu ul li a:hover {
+    color: #57040d;
+}
+
+/*food menu css*/
+
+.foodmenu-full {
+    background-color: black;
+}
+.foodmenu-top{
+    padding: 20px 0;
+}
+.sec-title {
+    margin-bottom: 18px;
+    text-align: center;
+    color: white;
+}
+
+.sec-title h2 {
+    font-size: 45px;
+    color: #625151;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.sec-title p {
+    font-size: 15px;
+    color: #d0c9c9;
+    margin: auto;
+    line-height: 30px;
+}
+
+.sec-title p span {
+    font-size: 20px;
+    font-weight: 800
+}
+.foodmenu-img {
+    width: 33.33%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    line-height: 0
+}
+
+.foodmenu-img img {
+    width: 90%;
+    border-radius: 9%;
+    padding: 10px 10px;
+}
+
+.img-overlay {
+    position: absolute;
+    height: 40%;
+    width: 78%;
+    background-color: rgba(49, 45, 45, 0.51);
+    left: 9%;
+    top: 4%;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 20px;
+    border-radius: 35%;
+    box-sizing: border-box;
+    transform: translateX(120%);
+    transition: all 0.5s linear;
+    line-height: normal
+} 
+
+.foodmenu-img:hover .img-overlay {
+    transform: translateX(0%);
+}
+.foodmenu-bottom{
+    padding: 0 180px;
+}
+.foodmenu-bottom button{
+    padding: 8px 8px;
+    margin: 15px 132px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #f0cfcd;
+    background-color: rgba(189, 28, 29);
+    border-style: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    align-content: center;
+}
+
+.foodmenu-bottom button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff
+}
+/*footer css*/
+
+.footer{
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
+}

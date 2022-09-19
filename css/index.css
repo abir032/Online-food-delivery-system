@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*end of basic css*/
+.full {
+    width: 100%;
+}
+
+.main {
+    width: 1180px;
+    margin: auto
+}
+
+.menu_full {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.main-menu ul li a {
+    color: #bd1c1d;
+    font-size: 14px;
+    font-family: 
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0 25px;
+    transition: all 0.5s linear;
+}
+
+.main-menu ul li a:hover {
+    color: #57040d;
+}
+
+.banner-full {
+    background: url(../images/dish10.jpg) left top no-repeat;
+    background-size: cover;
+    padding: 210px 0;
+    position: relative;
+    z-index: 1
+}
+
+.banner-full:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+.banner-txt {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-txt img {
+    display: block;
+    margin: 50px auto
+}
+
+.banner-txt h5 {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.banner-txt h1 {
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner-txt p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.banner-txt button, .form-div button {
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #57040d;
+    border-style: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.banner-txt button:hover, .form-div button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff
+}
+
+/* about css */
+.about-full {
+    padding: 30px 0;
+    background-color: white;
+}
+
+.sec-title {
+    text-align: center
+}
+
+.sec-title h2 {
+    font-size: 48px;
+    color: darkred;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.sec-title p {
+    font-size: 16px;
+    color: #57040d;
+    width: 75%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.sec-title p span {
+    font-size: 23px;
+    font-weight: 800
+}
+
+.about-col {
+    width: 25%;
+    float: left;
+    border-right: 1px solid #444;
+    padding: 40px 0;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+
+.about-txt {
+    text-align: center;
+}
+
+.about-txt i {
+    font-size: 40px;
+    padding: 10px 0
+}
+
+.about-txt h4 {}
+
+.about-txt p {}
+
+.no-border {
+    border-style: none
+}
+
+.about-col:hover {
+    box-shadow: 0px 0px 6px -1px #6d6d65;
+}
+
+.about-col:hover i {
+    color:goldenrod;
+}
+
+/*location css*/
+.location{
+    font-size: 32px;
+    color: darkred;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 100px;
+    background-color: whitesmoke;
+}
+.map{
+    margin: 30px 30px;
+    width: 95%;
+}
+/*food menu css*/
+.work-full {
+    margin-top: 50px;
+}
+.sec-title {
+    margin-bottom: 50px;
+}
+.work-img {
+    width: 33.33%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    line-height: 0
+}
+
+.work-img img {
+    width: 100%
+}
+
+.img-overlay {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgba(2, 145, 140, 0.64);
+    left: 10%;
+    top: 10%;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    transform: translateX(115%);
+    transition: all 0.5s linear;
+    line-height: normal
+}
+.work-img:hover .img-overlay {
+transform: translateX(0%);
+}
+.cont-top{
+    background-color: whitesmoke;
+    padding: 0.5px;
+}
+.cont-bottom{
+    background-color: #242121;
+    padding: 40px 0;
+}
+.form-div{
+    text-align: center
+}
+.form-div input,
+.form-div textarea
+{
+    border-style: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 30%;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 20px;
+    resize: none;
+    margin: auto
+    
+}
+.form-div textarea{
+    width: 30%;
+    margin-bottom: 30px;
+}
+.form-div p{
+    color: whitesmoke;
+}
+.footer{
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
+}

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/dish10.jpg);
+    background-size: cover;
+}
+.signup-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.signup-area{
+
+    width: 530px;
+    height: 720px;
+    background-color: rgba(240, 231, 231, 0.40);
+    border-radius: 10px;
+    color: #242121;
+    top: 50%;
+    left: 50%;
+    padding: 20px 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.signup-area img{
+    width: 48%;
+    height: 8%;
+    padding: 15px 100px;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+}
+.signupbox p{
+    font-weight: bold;
+}
+.signupbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signupbox input
+{
+    border: none;
+    border-bottom: 1 px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #242121;
+    font-size: 16px;
+}
+.signupbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signupbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #242121;
+    color: #fff;
+}
+.signupbox a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #242100;
+}
+.signupbox a:hover{
+    color: #bb2e2e;
+}

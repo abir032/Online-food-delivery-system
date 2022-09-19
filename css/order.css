@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*end of basic css*/
+
+/*header (logo & menu) css*/
+
+.full {
+    width: 100%;
+}
+
+.main {
+    width: 1180px;
+    margin: auto;
+}
+
+.menu_full {
+    background-color: white;
+    padding: 15px 0;
+    //position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.main-menu ul li a {
+    color: #bd1c1d;
+    font-size: 14px;
+    font-family: 
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0 25px;
+    transition: all 0.5s linear;
+}
+
+.main-menu ul li a:hover {
+    color: #57040d;
+}
+
+/*delivery css*/
+
+.delivery{
+    background-color: rgba(240, 231, 231, 0.20);
+    border-radius: 10px;
+    color: white;
+    padding: 20px 0;
+    
+}
+.delivery-area{
+    margin-left: 41%;
+    
+}
+.delivery p{
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.delivery input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1 px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+/*banner css*/
+
+.banner {
+/*    height: 560px;*/
+    background: url(../images/dish10.jpg) left top no-repeat;
+    background-size: cover;
+/*    padding: 50px 0;*/
+    position: relative;
+    z-index: 1
+}
+
+.banner:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.opacity{
+    background-color: rgba(240, 231, 231, 0.20);
+    border-radius: 10px;
+    color: #242121;
+    padding: 20px 0;
+}
+.banner-txt {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-txt h2{
+    color: brown;
+    padding-top: 60px;
+}
+
+.banner-txt p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner-txt td{
+    color: whitesmoke;
+    padding: 10px 0;
+    border-style: 2px;
+}
+
+.banner-txt th{
+    color: white;
+    padding-top: 10px;
+    border-style: 2px;
+}
+
+.banner-txt img{
+    padding: 10px 0;
+    border-style: 2px;
+}
+
+.banner-txt i{
+    color: black;
+    font-size: 22px;
+}
+
+.banner-txt i:hover{
+    color: #57040d;
+    font-size: 22px;
+    transition: all 0.5s linear;
+}
+.banner-txt button, .form-div button {
+    padding: 15px 20px;
+    margin: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #57040d;
+    border-style: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.banner-txt button:hover, .form-div button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff
+}
+
+/*footer css*/
+
+.footer{
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
+}
